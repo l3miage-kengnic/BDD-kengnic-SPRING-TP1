@@ -3,7 +3,7 @@ package fr.uga.l3miage.exo1.response;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
-import java.sql.Date;
+import java.util.Date;
 
 @Data
 @Schema(description = "Représentation d'un album")

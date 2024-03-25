@@ -1,7 +1,6 @@
 package fr.uga.l3miage.tp3.exo1.services;
 
 import fr.uga.l3miage.exo1.requests.PlaylistCreationRequest;
-import fr.uga.l3miage.exo1.response.PlaylistResponseDTO;
 import fr.uga.l3miage.tp3.exo1.components.PlaylistComponent;
 import fr.uga.l3miage.tp3.exo1.components.SongComponent;
 import fr.uga.l3miage.tp3.exo1.exceptions.rest.AddingSongRestException;

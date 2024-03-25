@@ -14,6 +14,6 @@ public class SongResponseDTO {
     private Duration duration;
     @Schema(description = "Album lié à ce son")
     private AlbumResponseDTO albumEntity;
-    @Schema(description = "artiste qui à créer ce son")
+    @Schema(description = "artiste qui a crée ce son")
     private ArtistResponseDTO artistEntity;
 }

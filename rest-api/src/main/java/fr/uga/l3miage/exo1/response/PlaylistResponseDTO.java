@@ -15,6 +15,7 @@ public class PlaylistResponseDTO {
     private String description;
     @Schema(description = "le temps complet de la playlist")
     private Duration totalDuration;
-    @Schema(description = "La liste des sons dans la playlist")
+    @Schema(description = "La liste des sons dans la playlist" )
     private final Set<SongResponseDTO> songEntities;
+
 }
